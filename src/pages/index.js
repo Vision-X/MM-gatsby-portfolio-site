@@ -66,15 +66,16 @@ class IndexPage extends Component {
               <Img sizes={data.pic01.childImageSharp.sizes} />
             </a>
             <Content>
-              <h2 className="major">Magna arcu feugiat</h2>
+              <h2 className="major">About MM</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-                turpis ante, nullam sit amet turpis non, sollicitudin posuere
-                urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-                dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-                cursus.
+                Hailing from Atlanta, I moved to Denver in early 2017
+                to attend school at start a new career path. I worked
+                in music various parts of the music industry prior to
+                becoming a Web Dev, including: DJ, music producer,
+                record store manager, podcaster, professional gamer,
+                and IT contractor.
               </p>
-              <SpecialLink to="#">Learn more</SpecialLink>
+              {/*<SpecialLink to="#">Learn more</SpecialLink>*/}
             </Content>
           </Spotlight>
           <Spotlight>
@@ -82,15 +83,20 @@ class IndexPage extends Component {
               <Img sizes={data.pic02.childImageSharp.sizes} />
             </a>
             <Content>
-              <h2 className="major">Tempus adipiscing</h2>
+              <h2 className="major">Education</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-                turpis ante, nullam sit amet turpis non, sollicitudin posuere
-                urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-                dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-                cursus.
+                I spent several years at Georgia State studying
+                a variety of subject. Initially my focus was in
+                mathematics and physics. Eventually I pivoted to
+                Biology in the hopes of working in neuroscience.
+                Eventually I went with the most practical track,
+                Computer Science. After two years of CSCI curriculum
+                I decided a more focused, fast paced approach was
+                what I needed. I found what I needed in the WDI program
+                at Galvanize (Platte) with the greatest cohort of
+                all time [g70]!
               </p>
-              <SpecialLink to="#">Learn more</SpecialLink>
+              {/*<SpecialLink to="#">Learn more</SpecialLink>*/}
             </Content>
           </Spotlight>
 
@@ -99,15 +105,17 @@ class IndexPage extends Component {
               <Img sizes={data.pic03.childImageSharp.sizes} />
             </a>
             <Content>
-              <h2 className="major">Nullam dignissim</h2>
+              <h2 className="major">Interests</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-                turpis ante, nullam sit amet turpis non, sollicitudin posuere
-                urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-                dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-                cursus.
+                I love to code. But I love other stuff, too. Some of my
+                passions include collecting vinyl records, going to
+                concerts, snowboarding, and gaming. I like to spend
+                some of my free time live streaming on Twitch.tv,
+                whether its playing a game or building web apps and
+                engaging with my viewers. I should also mention my
+                favorite friend in the world, my dog Franklin (pictured). 
               </p>
-              <SpecialLink to="#">Learn more</SpecialLink>
+              {/*<SpecialLink to="#">Learn more</SpecialLink>*/}
             </Content>
           </Spotlight>
         </SpotlightWrapper>

@@ -153,7 +153,7 @@ export const query = graphql`
       }
     }
 
-    bg: file(name: { eq: "bg" }) {
+    bg: file(name: { eq: "keyboard" }) {
       childImageSharp {
         sizes(quality: 80) {
           ...GatsbyImageSharpSizes_withWebp
