@@ -113,7 +113,7 @@ export const query = graphql`
       }
     }
 
-    pic04: file(name: { eq: "pic04" }) {
+    pic04: file(name: { eq: "LinkYe" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp
@@ -121,7 +121,7 @@ export const query = graphql`
       }
     }
 
-    pic05: file(name: { eq: "pic05" }) {
+    pic05: file(name: { eq: "DrumLab" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp
@@ -129,7 +129,7 @@ export const query = graphql`
       }
     }
 
-    pic06: file(name: { eq: "pic06" }) {
+    pic06: file(name: { eq: "HyRel5" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp
@@ -137,7 +137,7 @@ export const query = graphql`
       }
     }
 
-    pic07: file(name: { eq: "pic07" }) {
+    pic07: file(name: { eq: "g-events2" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp

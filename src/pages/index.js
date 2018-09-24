@@ -129,6 +129,7 @@ class IndexPage extends Component {
                 a more meaningful way than the standard folder and URL
                 system that Chrome and Firefox allow. Fully searchable
                 and filterable by common tags to group by topic(s).
+                Finding your saved resources just got (semi) easier.
               </p>
               <SpecialLink>Show me the site!</SpecialLink>
               <SpecialLink>Show me the code!</SpecialLink>
@@ -155,8 +156,9 @@ class IndexPage extends Component {
               <h3 className="major">Hype Release</h3>
               <p>
                 An app using a Cheerio.js webscraper to build a custom API
-                for Yeezy and Jordan shoe release data with a corresponding
-                front end in React 16 styled with bootstrap/bootswatch.
+                for Adidas Yeezy and Nike Air Jordan shoe release data with
+                a corresponding front end in React 16 styled with
+                bootstrap/bootswatch. Keep up with the most hyped releases!
               </p>
               <SpecialLink>Show me the site!</SpecialLink>
               <SpecialLink>Show me the code!</SpecialLink>
