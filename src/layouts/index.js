@@ -89,7 +89,7 @@ export const query = graphql`
       }
     }
 
-    pic01: file(name: { eq: "pic01" }) {
+    pic01: file(name: { eq: "headshot" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp
