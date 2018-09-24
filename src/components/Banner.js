@@ -8,7 +8,8 @@ const Banner = React.forwardRef(({ siteTitle }, ref) => (
       </div>
       <h2>{siteTitle}</h2>
       <p>
-        Full Stack Web Developer based in Denver, CO.
+        I am a Web Developer based in Denver, CO. I love React
+        and the future potential of XR.
       </p>
     </div>
   </section>
