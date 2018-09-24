@@ -63,7 +63,7 @@ class IndexPage extends Component {
         <SpotlightWrapper>
           <Spotlight>
             <a href="#" className="image">
-              <Img sizes={data.pic01.childImageSharp.sizes} />
+              <Img className="fadedImg" sizes={data.pic01.childImageSharp.sizes} />
             </a>
             <Content>
               <h2 className="major">About MM</h2>
