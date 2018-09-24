@@ -69,9 +69,9 @@ class IndexPage extends Component {
               <h2 className="major">About MM</h2>
               <p>
                 Hailing from Atlanta, I moved to Denver in early 2017
-                to attend school at start a new career path. I worked
-                in music various parts of the music industry prior to
-                becoming a Web Dev, including: DJ, music producer,
+                to attend school and start a new career path. I have worked
+                in various roles within the music industry, IT, and retail prior
+                to becoming a Web Dev, including: DJ, music producer,
                 record store manager, podcaster, professional gamer,
                 and IT contractor.
               </p>
