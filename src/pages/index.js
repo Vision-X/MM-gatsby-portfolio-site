@@ -66,9 +66,9 @@ class IndexPage extends Component {
         <Banner siteTitle={data.site.siteMetadata.title} ref={this.bannerRef} />
         <SpotlightWrapper>
           <Spotlight>
-            <a href="#" className="image cir-img">
+            <div href="#" className="image cir-img">
               <Img sizes={data.pic01.childImageSharp.sizes} />
-            </a>
+            </div>
             <Content>
               <h2 className="major">About MM</h2>
               <p>
@@ -83,9 +83,9 @@ class IndexPage extends Component {
             </Content>
           </Spotlight>
           <Spotlight>
-            <a href="#" className="image cir-img">
+            <div className="image cir-img">
               <Img style={{opacity: 0.5}} sizes={data.pic02.childImageSharp.sizes} />
-            </a>
+            </div>
             <Content>
               <h2 className="major">Education</h2>
               <p>
@@ -105,9 +105,9 @@ class IndexPage extends Component {
           </Spotlight>
 
           <Spotlight>
-            <a href="#" className="image cir-img">
+            <div className="image cir-img">
               <Img style={{opacity: 0.5}} sizes={data.pic03.childImageSharp.sizes} />
-            </a>
+            </div>
             <Content>
               <h2 className="major">Interests</h2>
               <p>
@@ -131,9 +131,9 @@ class IndexPage extends Component {
           </p>
           <FeaturedItems>
             <article>
-              <a href="#" className="image cir-img">
+              <div className="image cir-img">
                 <Img sizes={data.pic04.childImageSharp.sizes}/>
-              </a>
+              </div>
               <h3 className="major">LinkYe</h3>
               <p>
                 A tool I built for saving useful resources and links in
@@ -142,13 +142,13 @@ class IndexPage extends Component {
                 and filterable by common tags to group by topic(s).
                 Finding your saved resources just got (semi) easier.
               </p>
-              <SpecialLink>Show me the site!</SpecialLink>
-              <SpecialLink>Show me the code!</SpecialLink>
+              <SpecialLink href="https://linky-me.firebaseapp.com">Show me the site!</SpecialLink>
+              <SpecialLink href="https://github.com/Vision-X/linky-frontend">Show me the code!</SpecialLink>
             </article>
             <article>
-              <a href="#" className="image cir-img">
+              <div className="image cir-img">
                 <Img sizes={data.pic05.childImageSharp.sizes}/>
-              </a>
+              </div>
               <h3 className="major">DrumLab VR</h3>
               <p>
                 Experience interactive drum machine basics through WebVR.
@@ -157,13 +157,13 @@ class IndexPage extends Component {
                 Don't just listen to music: make your own and feel it come
                 alive in DrumLabVR.
               </p>
-              <SpecialLink>Show me the site!</SpecialLink>
-              <SpecialLink>Show me the code!</SpecialLink>
+              <SpecialLink href="https://drumlabvr.firebaseapp.com">Show me the site!</SpecialLink>
+              <SpecialLink href="https://github.com/Vision-X/drumlabvr">Show me the code!</SpecialLink>
             </article>
             <article>
-              <a href="#" className="image cir-img">
+              <div className="image cir-img">
                 <Img sizes={data.pic06.childImageSharp.sizes}/>
-              </a>
+              </div>
               <h3 className="major">Hype Release</h3>
               <p>
                 An app using a Cheerio.js webscraper to build a custom API
@@ -171,13 +171,13 @@ class IndexPage extends Component {
                 a corresponding front end in React 16 styled with
                 bootstrap/bootswatch. Keep up with the most hyped releases!
               </p>
-              <SpecialLink>Show me the site!</SpecialLink>
-              <SpecialLink>Show me the code!</SpecialLink>
+              <SpecialLink href="https://hype-release.firebaseapp.com">Show me the site!</SpecialLink>
+              <SpecialLink href="https://github.com/Vision-X/HypeRelease">Show me the code!</SpecialLink>
             </article>
             <article>
-              <a href="#" className="image cir-img">
+              <div className="image cir-img">
                 <Img sizes={data.pic07.childImageSharp.sizes}/>
-              </a>
+              </div>
               <h3 className="major">G-Events Locator</h3>
               <p>
                 A Galvanize Events Application that allows the user to see
@@ -185,8 +185,8 @@ class IndexPage extends Component {
                 directions to the event. The application has a floor map of all
                  rooms with directions.
               </p>
-              <SpecialLink>Show me the site!</SpecialLink>
-              <SpecialLink>Show me the code!</SpecialLink>
+              <SpecialLink href="https://g-events-locator.firebaseapp.com/">Show me the site!</SpecialLink>
+              <SpecialLink href="https://github.com/Vision-X/G-Events-Frontend">Show me the code!</SpecialLink>
             </article>
           </FeaturedItems>
           {/*<ul className="actions">

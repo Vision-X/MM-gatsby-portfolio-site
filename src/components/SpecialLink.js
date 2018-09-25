@@ -1,11 +1,11 @@
 import React from 'react';
-import Link from 'gatsby-link';
+// import Link from 'gatsby-link';
 
 // TODO: use proptypes and set a default for to
-const SpecialLink = ({ children, to }) => (
-  <Link to={to || '/'} className="special">
+const SpecialLink = ({ children, href }) => (
+  <a target="_blank" href={href || '/'} className="special">
     {children}
-  </Link>
+  </a>
 );
 
 export default SpecialLink;

@@ -3664,7 +3664,8 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			/* background-color: #3d4051; */
+			background-color: #595C6A;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
