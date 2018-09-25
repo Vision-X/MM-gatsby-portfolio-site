@@ -97,7 +97,7 @@ export const query = graphql`
       }
     }
 
-    pic02: file(name: { eq: "pic02" }) {
+    pic02: file(name: { eq: "burnyourdiploma" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp
@@ -105,7 +105,7 @@ export const query = graphql`
       }
     }
 
-    pic03: file(name: { eq: "pic03" }) {
+    pic03: file(name: { eq: "technics1200" }) {
       childImageSharp {
         sizes {
           ...GatsbyImageSharpSizes_withWebp

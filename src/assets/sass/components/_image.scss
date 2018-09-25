@@ -6,6 +6,18 @@
 
 /* Image */
 
+
+	.cir-img {
+		opacity: 0.6;
+	}
+
+	.cir-img:hover {
+		opacity: 1.0;
+		transition: opacity .85s ease-in-out;
+		-moz-transition: opacity .85 ease-in-out;
+		-webkit-transition: opacity .85 ease-in-out;
+	}
+
 	.image {
 		border-radius: _size(border-radius);
 		border: 0;
@@ -15,6 +27,10 @@
 		img {
 			border-radius: _size(border-radius);
 			display: block;
+		}
+
+		img:hover {
+			opacity: 0.3;
 		}
 
 		&.left,

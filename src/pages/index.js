@@ -37,6 +37,10 @@ class IndexPage extends Component {
     else this.setState({ isScrolled: false });
   }, 66);
 
+  toggleOpacity = () => {
+    console.log("yoooooo");
+  }
+
   componentDidMount() {
     window.addEventListener('scroll', this.scrollListener);
 
@@ -54,16 +58,16 @@ class IndexPage extends Component {
     const { data, openMenu } = this.props;
     return (
       <div className={this.state.isMounted ? '' : 'is-preload'}>
-        <NavigationBar
+        {/*<NavigationBar
           siteTitle={data.site.siteMetadata.title}
           openMenu={openMenu}
           className={this.state.isScrolled ? '' : 'alt'}
-        />
+        />*/}
         <Banner siteTitle={data.site.siteMetadata.title} ref={this.bannerRef} />
         <SpotlightWrapper>
           <Spotlight>
-            <a href="#" className="image">
-              <Img className="fadedImg" sizes={data.pic01.childImageSharp.sizes} />
+            <a href="#" className="image cir-img">
+              <Img sizes={data.pic01.childImageSharp.sizes} />
             </a>
             <Content>
               <h2 className="major">About MM</h2>
@@ -79,8 +83,8 @@ class IndexPage extends Component {
             </Content>
           </Spotlight>
           <Spotlight>
-            <a href="#" className="image">
-              <Img sizes={data.pic02.childImageSharp.sizes} />
+            <a href="#" className="image cir-img">
+              <Img style={{opacity: 0.5}} sizes={data.pic02.childImageSharp.sizes} />
             </a>
             <Content>
               <h2 className="major">Education</h2>
@@ -101,15 +105,14 @@ class IndexPage extends Component {
           </Spotlight>
 
           <Spotlight>
-            <a href="#" className="image">
-              <Img sizes={data.pic03.childImageSharp.sizes} />
+            <a href="#" className="image cir-img">
+              <Img style={{opacity: 0.5}} sizes={data.pic03.childImageSharp.sizes} />
             </a>
             <Content>
               <h2 className="major">Interests</h2>
               <p>
-                I love to code. But I love other stuff, too. Some of my
-                passions include collecting vinyl records, going to
-                concerts, snowboarding, and gaming. I like to spend
+                Some of my passions include collecting vinyl records,
+                going to concerts, snowboarding, and gaming. I like to spend
                 some of my free time live streaming on Twitch.tv,
                 whether its playing a game or building web apps and
                 engaging with my viewers. I should also mention my
@@ -128,7 +131,7 @@ class IndexPage extends Component {
           </p>
           <FeaturedItems>
             <article>
-              <a href="#" className="image">
+              <a href="#" className="image cir-img">
                 <Img sizes={data.pic04.childImageSharp.sizes}/>
               </a>
               <h3 className="major">LinkYe</h3>
@@ -143,7 +146,7 @@ class IndexPage extends Component {
               <SpecialLink>Show me the code!</SpecialLink>
             </article>
             <article>
-              <a href="#" className="image">
+              <a href="#" className="image cir-img">
                 <Img sizes={data.pic05.childImageSharp.sizes}/>
               </a>
               <h3 className="major">DrumLab VR</h3>
@@ -158,7 +161,7 @@ class IndexPage extends Component {
               <SpecialLink>Show me the code!</SpecialLink>
             </article>
             <article>
-              <a href="#" className="image">
+              <a href="#" className="image cir-img">
                 <Img sizes={data.pic06.childImageSharp.sizes}/>
               </a>
               <h3 className="major">Hype Release</h3>
@@ -172,7 +175,7 @@ class IndexPage extends Component {
               <SpecialLink>Show me the code!</SpecialLink>
             </article>
             <article>
-              <a href="#" className="image">
+              <a href="#" className="image cir-img">
                 <Img sizes={data.pic07.childImageSharp.sizes}/>
               </a>
               <h3 className="major">G-Events Locator</h3>
