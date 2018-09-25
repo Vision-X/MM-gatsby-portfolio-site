@@ -58,11 +58,6 @@ class IndexPage extends Component {
     const { data, openMenu } = this.props;
     return (
       <div className={this.state.isMounted ? '' : 'is-preload'}>
-        {/*<NavigationBar
-          siteTitle={data.site.siteMetadata.title}
-          openMenu={openMenu}
-          className={this.state.isScrolled ? '' : 'alt'}
-        />*/}
         <Banner siteTitle={data.site.siteMetadata.title} ref={this.bannerRef} />
         <SpotlightWrapper>
           <Spotlight>
@@ -79,7 +74,6 @@ class IndexPage extends Component {
                 record store manager, podcaster, professional gamer,
                 and IT contractor.
               </p>
-              {/*<SpecialLink to="#">Learn more</SpecialLink>*/}
             </Content>
           </Spotlight>
           <Spotlight>
@@ -100,7 +94,6 @@ class IndexPage extends Component {
                 at Galvanize (Platte) with the greatest cohort of
                 all time [g70]!
               </p>
-              {/*<SpecialLink to="#">Learn more</SpecialLink>*/}
             </Content>
           </Spotlight>
 
@@ -118,7 +111,6 @@ class IndexPage extends Component {
                 engaging with my viewers. I should also mention my
                 favorite friend in the world, my dog Franklin (pictured).
               </p>
-              {/*<SpecialLink to="#">Learn more</SpecialLink>*/}
             </Content>
           </Spotlight>
         </SpotlightWrapper>
@@ -189,13 +181,6 @@ class IndexPage extends Component {
               <SpecialLink href="https://github.com/Vision-X/G-Events-Frontend">Show me the code!</SpecialLink>
             </article>
           </FeaturedItems>
-          {/*<ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>*/}
         </Wrapper>
       </div>
     );
