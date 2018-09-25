@@ -109,7 +109,7 @@ class IndexPage extends Component {
                 some of my free time live streaming on Twitch.tv,
                 whether its playing a game or building web apps and
                 engaging with my viewers. I should also mention my
-                favorite friend in the world, my dog Franklin (pictured).
+                favorite friend in the world - my dog Franklin.
               </p>
             </Content>
           </Spotlight>
