@@ -4,7 +4,7 @@ const Banner = React.forwardRef(({ siteTitle }, ref) => (
   <section ref={ref} id="banner">
     <div className="inner">
       <div className="logo">
-        <span className="icon fa-diamond" />
+        <span className="icon fa-rebel" />
       </div>
       <h2>{siteTitle}</h2>
       <p>
