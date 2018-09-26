@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Michael Marlow - Full Stack Developer',
+    title: 'Michael Marlow - Developer',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gatsby Personal Site - Michael Marlow',
-        short_name: 'Gatsby Personal Site',
+        name: 'Michael Marlow Portfolio Site',
+        short_name: 'Michael Marlow - Developer',
         start_url: '/',
         background_color: '#2e3141',
         theme_color: '#4c5c96',
         display: 'minimal-ui',
-        icon: 'src/images/icon.png',
+        icon: 'src/images/icon2.png',
       },
     },
     'gatsby-plugin-offline',
