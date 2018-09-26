@@ -65,7 +65,7 @@ class IndexPage extends Component {
               <Img sizes={data.pic01.childImageSharp.sizes} />
             </div>
             <Content>
-              <h2 className="major">About MM</h2>
+              <h2 className="major">About</h2>
               <p>
                 Hailing from Atlanta, I moved to Denver in early 2017
                 to attend school and start a new career path. I have worked
@@ -84,11 +84,8 @@ class IndexPage extends Component {
               <h2 className="major">Education</h2>
               <p>
                 I spent several years at Georgia State studying
-                a variety of subject. Initially my focus was in
-                mathematics and physics. Eventually I pivoted to
-                Biology in the hopes of working in neuroscience.
-                Eventually I went with the most practical track,
-                Computer Science. After two years of CSCI curriculum
+                a variety of subjects. Ultimately I chose the most practical
+                track, Computer Science. After two years of CSCI curriculum
                 I decided a more focused, fast paced approach was
                 what I needed. I found what I needed in the WDI program
                 at Galvanize (Platte) with the greatest cohort of
