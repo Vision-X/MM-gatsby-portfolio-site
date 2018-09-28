@@ -257,6 +257,14 @@
 				@include padding(2em, 2em);
 			}
 
+			.cir-img {
+				opacity: 1.0;
+			}
+
+			.cir-img:hover {
+				opacity: 1.0;
+			}
+
 			&.spotlight {
 				.inner {
 					@include vendor('align-items', 'flex-start');
