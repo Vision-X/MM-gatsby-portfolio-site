@@ -67,7 +67,7 @@ class IndexPage extends Component {
             <Content>
               <h2 className="major">About</h2>
               <p>
-                Hailing from Atlanta, I moved to Denver in early 2017
+                Born and raised in Atlanta, I moved to Denver in early 2017
                 to attend school and start a new career path. I have worked
                 in various roles within the music industry, IT, and retail prior
                 to becoming a Web Dev, including: DJ, music producer,
@@ -88,8 +88,7 @@ class IndexPage extends Component {
                 track, Computer Science. After two years of CSCI curriculum
                 I decided a more focused, fast paced approach was
                 what I needed. I found what I needed in the WDI program
-                at Galvanize (Platte) with the greatest cohort of
-                all time [g70]!
+                at Galvanize (Platte).
               </p>
             </Content>
           </Spotlight>
