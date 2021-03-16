@@ -67,12 +67,10 @@ class IndexPage extends Component {
             <Content>
               <h2 className="major">About</h2>
               <p>
-                Born and raised in Atlanta, I moved to Denver in early 2017
+                Located in Atlanta (I'm back - 2021), I moved to Denver in early 2017
                 to attend school and start a new career path. I have worked
                 in various roles within the music industry, IT, and retail prior
-                to becoming a Web Dev, including: DJ, music producer,
-                record store manager, podcaster, professional gamer,
-                and IT contractor.
+                to becoming a developer.
               </p>
             </Content>
           </Spotlight>
@@ -101,11 +99,10 @@ class IndexPage extends Component {
               <h2 className="major">Interests</h2>
               <p>
                 Some of my passions include collecting vinyl records,
-                going to concerts, snowboarding, and gaming. I like to spend
+                going to concerts, snowboarding, and building PCs. I like to spend
                 some of my free time live streaming on Twitch.tv,
                 whether its playing a game or building web apps and
-                engaging with my viewers. I should also mention my
-                favorite friend in the world - my dog Franklin.
+                engaging with my viewers.
               </p>
             </Content>
           </Spotlight>
